@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+.env/
+.venv/
+
+# Environment variables
+.env
+
+# Django migration files (optional, but usually tracked)
+# If not tracking them, uncomment the line below
+# **/migrations/
+
+# Database (if using SQLite)
+db.sqlite3
+*.sqlite3
+
+# Media and static files (optional)
+media/
+staticfiles/  # if using collectstatic
+static_root/
+
+# VSCode/IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Mac and Windows OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage and testing
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+coverage.xml
+
+# Build and distribution artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter notebooks (if used)
+.ipynb_checkpoints/
+
+# Poetry files if using (optional, but keep lock file in repo)
+poetry.lock
+
+# PyInstaller
+*.spec
